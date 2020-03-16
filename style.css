@@ -1,0 +1,104 @@
+body,html{
+    height:100%;
+}
+a{
+    text-decoration:none;
+}
+#bg-img{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('https://blog.payoneer.com/wp-content/uploads/2017/11/women-in-freelancing-1280x720.jpg');
+    height:100%;
+    max-width:100vw;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.banner-top{
+    width:100vw;
+}
+.banner-top img{
+    width:80px;
+    height:85px;
+}
+#banner-top-follow{
+    float:right;
+    margin-right:5vw;
+    color:#FFF;
+}
+.font-heading{
+    font-family:"Merriweather";
+    font-weight:bold;
+    color:#FFFFFF;
+    margin-top:3vh;    
+}
+.font-heading>h1{
+    line-height:1.5;
+}
+.btn-main{
+    width:50vw;
+    height:50px;
+    text-align:center;
+    letter-spacing:0.8em;
+}
+
+#bg-img-2{
+    background-image:linear-gradient(to bottom right,#87ceeb,#808080,#ffffff);
+}
+.banner-bottom{
+    overflow:hidden;
+    font-family:"Alegreya";
+    padding-bottom:20px;
+}
+.banner-bottom h3{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+footer{
+    background-color:#262B32;
+}
+footer a{
+    color:#87ceeb;
+    text-decoration:none;
+}
+footer a:hover{
+    color:rgb(88, 88, 224);
+}
+
+/* Style all font awesome icons */
+.awesome {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:50%;
+}
+/* Hover effect */
+.fab:hover {
+    opacity: 0.7;
+}
+/* Set a specific color for each brand */
+.fa-facebook {
+    background: #3B5998;
+}
+.fa-twitter {
+    background: #55ACEE;
+}
+.fa-instagram {
+    background: #E1306C;
+}
+
+/* For mobile devices like smartphones */
+@media only screen and (max-width:500px){
+    #banner-top-follow{
+        margin-top:20px;
+        float:left;
+    }
+    .font-heading>h1{
+        margin-left:20px;
+        font-size:2em;
+    }
+    .btn-main{
+        margin-left:20px;
+    }
+}
